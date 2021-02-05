@@ -55,9 +55,6 @@ if __name__ == '__main__':
                     lat = 180
                 if lat < -180:
                     lat = -180
-                print(lat)
-                print(lon)
-                print()
             ll_spn = f'll={lat},{lon}&z={zoom}'
             point_param = f'pt={lat_M},{lon_M}'
             show_map(ll_spn, 'map', point_param)
